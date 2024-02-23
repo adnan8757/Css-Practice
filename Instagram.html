@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram-like Image Gallery</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #f0f0f0;
+      }
+
+      .gallery {
+        max-width: 1200px;
+        margin: 20px auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 16px;
+        padding: 16px;
+      }
+
+      .gallery-item {
+        position: relative;
+        overflow: hidden;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .gallery-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+      }
+
+      .gallery-item:hover img {
+        transform: scale(1.1);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="gallery">
+      <div class="gallery-item">
+        <img
+          src="https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg"
+          alt="Image 1"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg"
+          alt="Image 1"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg"
+          alt="Image 1"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg"
+          alt="Image 1"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg"
+          alt="Image 1"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg"
+          alt="Image 1"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg"
+          alt="Image 1"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg"
+          alt="Image 1"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg"
+          alt="Image 1"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg"
+          alt="Image 1"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg"
+          alt="Image 1"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg"
+          alt="Image 1"
+        />
+      </div>
+
+      <!-- Add more gallery items as needed -->
+    </div>
+  </body>
+</html>
